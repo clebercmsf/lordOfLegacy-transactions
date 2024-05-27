@@ -34,6 +34,15 @@ export default function Calculator () {
     }
   };
 
+  const calculate = () => {
+    let total = 0;
+    const totalPrice = itemList.forEach(item => {
+      if (item.kit === "unidade/s") {
+        // total += (item.kit * )
+      }
+    });
+  };
+
   const renderContent = () => {
     if (resourceType === "ores") {
       return (

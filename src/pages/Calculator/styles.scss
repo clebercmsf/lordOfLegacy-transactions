@@ -1,0 +1,42 @@
+@import "../../sass/index.scss";
+
+.items__select-type {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.resources {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  #quantity {
+    width: 4rem;
+  }
+}
+.items__list {
+  padding: 1rem 3rem;
+}
+label {
+  margin-bottom: .5rem;
+  font-weight: 500;
+}
+input, select {
+  padding: .5rem;
+  border: 2px solid transparent;
+  border-radius: .3rem;
+  background-color: $secondary-color;
+  box-shadow: 0 0 .5rem $secondary-color;
+  
+  &:focus,
+  &:focus-visible {
+    border: 2px solid $quaternary-color;
+    outline: none;
+  }
+}

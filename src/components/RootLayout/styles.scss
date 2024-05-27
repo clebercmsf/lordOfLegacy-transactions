@@ -1,0 +1,35 @@
+@import "../../sass/index.scss";
+
+.nav-item {
+  padding: 1rem;
+  
+  div {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+    
+    a {
+      font-size: 1.1rem;
+      font-weight: 500;
+      text-decoration: none;
+      color: $primary-color;
+      transition: all .3s;
+      
+      &:hover {
+        color: $quaternary-color;
+      }
+    }
+  }
+}
+.main {
+  padding: 2rem;
+}
+@media (max-width: 375px) {
+  .nav-item {
+    text-align: center;
+
+    div {
+      justify-content: center;
+    }
+  }
+}

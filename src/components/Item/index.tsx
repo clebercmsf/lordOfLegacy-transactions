@@ -4,10 +4,11 @@ type ItemProps = {
   name: string;
   kit: string;
   quantity: number;
+  removeItem: React.MouseEventHandler<HTMLButtonElement> | undefined;
 }
 
-export default function Item ({ name, kit, quantity }: ItemProps) {
+export default function Item ({ name, kit, quantity, removeItem }: ItemProps) {
   return (
-    <li>{quantity} {kit} de {name}</li>
+    <span>{quantity} {kit} de {name} <button className="deleteBtn" onClick={removeItem}>Remover</button></span>
   );
 }

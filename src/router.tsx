@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import RootLayout from "./components/RootLayout";
 import Calculator from "./pages/Calculator";
+import Tables from "./pages/Tables";
 
 const router = createBrowserRouter([
   {
@@ -10,6 +11,10 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Calculator />
+      },
+      {
+        path: "tabelas",
+        element: <Tables />
       }
     ]
   }

@@ -1,5 +1,31 @@
 @import "../../sass/index.scss";
 
+label {
+  font-weight: 500;
+}
+input, select {
+  padding: .5rem;
+  border: 2px solid transparent;
+  border-radius: .3rem;
+  color: $primary-color;
+  background-color: $secondary-color;
+  box-shadow: 0 0 .5rem $secondary-color;
+
+  &:hover {
+    cursor: pointer;
+  }
+  &:focus,
+  &:focus-visible {
+    border: 2px solid $quaternary-color;
+    outline: none;
+  }
+  
+}
+input[type="checkbox"] {
+  &:checked {
+    background-color: $senary-color;
+  }
+}
 .items__select-type {
   display: flex;
   gap: 1rem;
@@ -48,39 +74,21 @@
   }
 }
 .totalFee {
+  display: flex;
+  gap: .5rem;
+  justify-content: space-between;
+  align-items: center;
   text-align: center;
   padding: 1rem 0 0;
   font-weight: 600;
-  border-top: 3px dashed $senary-color;
+  border-top: 3px solid $senary-color;
+
+  select {
+    background-color: $senary-color;
+    box-shadow: 0 0 .5rem $senary-color;
+  }
 }
 .total-price {
   color: $senary-color;
-  // text-shadow: 0 0 .5rem $senary-color;
   font-weight: 700;
-}
-label {
-  font-weight: 500;
-}
-input, select {
-  padding: .5rem;
-  border: 2px solid transparent;
-  border-radius: .3rem;
-  color: $primary-color;
-  background-color: $secondary-color;
-  box-shadow: 0 0 .5rem $secondary-color;
-
-  &:hover {
-    cursor: pointer;
-  }
-  &:focus,
-  &:focus-visible {
-    border: 2px solid $quaternary-color;
-    outline: none;
-  }
-  
-}
-input[type="checkbox"] {
-  &:checked {
-    background-color: $senary-color;
-  }
 }

@@ -19,6 +19,7 @@ export default function Calculator () {
   const [itemList, setItemList] = useState<ItemType[]>([]);
   const [totalPrice, setTotalPrice] = useState(0);
   const [fee, setFee] = useState(false);
+  const [priceFee, setPriceFee] = useState(10);
 
   const addItem = ({ id, name, kit, quantity }: ItemType) => {
     const item: ItemType = { id, name, kit, quantity };
@@ -144,7 +145,13 @@ export default function Calculator () {
               </div>
               {fee
               ? <div className="totalFee">
-                  <span>Total com taxa de serviço: <span className="total-price">R$ {totalPrice + (totalPrice / 10)}</span></span>
+                  <span>Total com taxa de serviço: <span className="total-price">R$ {(totalPrice + (totalPrice / priceFee)).toFixed(2)}</span></span>
+                  <select name="fee-price" id="fee-price" value={priceFee} onChange={(ev) => setPriceFee(+ev.target.value)}>
+                    <option value="10">10%</option>
+                    <option value="15">15%</option>
+                    <option value="20">20%</option>
+                    <option value="25">25%</option>
+                  </select>
                 </div>
               : null}
             </>

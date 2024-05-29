@@ -9,16 +9,7 @@ button {
   font-weight: 500;
   font-family: inherit;
   cursor: pointer;
-  transition: border-color 0.25s;
-
-  &:hover {
-    border-color: $senary-color;
-    cursor: pointer;
-  }
-  &:focus,
-  &:focus-visible {
-    outline: 1px auto -webkit-focus-ring-color;
-  }
+  transition: border-color 0.3s;
 }
 .addBtn {
   background-color: $tertiary-color;

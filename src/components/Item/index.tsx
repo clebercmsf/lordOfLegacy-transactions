@@ -10,7 +10,7 @@ type ItemProps = {
 export default function Item ({ name, kit, quantity, removeItem }: ItemProps) {
   return (
     <div className="item">
-      <span>{quantity} {kit} de {name}</span>
+      <span>{quantity} - {kit} de {name}</span>
       <button className="deleteBtn" onClick={removeItem}>Remover</button>
     </div>
   );

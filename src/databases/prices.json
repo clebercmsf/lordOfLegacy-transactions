@@ -1,0 +1,638 @@
+{
+  "ores": [
+    {
+      "id": 1,
+      "name": "Argila",
+      "unit": "0.6",
+      "pack": "38.4"
+    },
+    {
+      "id": 2,
+      "name": "Amethysta",
+      "unit": "1",
+      "pack": "64"
+    },
+    {
+      "id": 3,
+      "name": "Barra de Amethysta",
+      "unit": "3.5",
+      "pack": "224"
+    },
+    {
+      "id": 4,
+      "name": "Barra de Diamante",
+      "unit": "21",
+      "pack": "1344"
+    },
+    {
+      "id": 5,
+      "name": "Barra de Ferro",
+      "unit": "20",
+      "pack": "1280"
+    },
+    {
+      "id": 6,
+      "name": "Barra de Iridium",
+      "unit": "20",
+      "pack": "1280"
+    },
+    {
+      "id": 7,
+      "name": "Barra de Ouro",
+      "unit": "21.5",
+      "pack": "1376"
+    },
+    {
+      "id": 8,
+      "name": "Barra de Prata",
+      "unit": "8",
+      "pack": "512"
+    },
+    {
+      "id": 9,
+      "name": "Carvao",
+      "unit": "0.25",
+      "pack": "32"
+    },
+    {
+      "id": 10,
+      "name": "Diamante",
+      "unit": "5",
+      "pack": "320"
+    },
+    {
+      "id": 11,
+      "name": "Ferro",
+      "unit": "2",
+      "pack": "128"
+    },
+    {
+      "id": 12,
+      "name": "Fragmento de Amethysta",
+      "unit": "0.3",
+      "pack": "19.2"
+    },
+    {
+      "id": 13,
+      "name": "Fragmento de Diamante",
+      "unit": "2.6",
+      "pack": "166.4"
+    },
+    {
+      "id": 14,
+      "name": "Fragmento de Ferro",
+      "unit": "4.5",
+      "pack": "288"
+    },
+    {
+      "id": 15,
+      "name": "Fragmento de Iridium",
+      "unit": "3.3",
+      "pack": "211.2"
+    },
+    {
+      "id": 16,
+      "name": "Fragmento de Ouro",
+      "unit": "5.3",
+      "pack": "339.2"
+    },
+    {
+      "id": 17,
+      "name": "Fragmento de Prata",
+      "unit": "0.8",
+      "pack": "51.2"
+    },
+    {
+      "id": 18,
+      "name": "Iridium",
+      "unit": "3",
+      "pack": "192"
+    },
+    {
+      "id": 19,
+      "name": "Ouro",
+      "unit": "2.5",
+      "pack": "160"
+    },
+    {
+      "id": 20,
+      "name": "Pó de Amethysta",
+      "unit": "0.3",
+      "pack": "19.2"
+    },
+    {
+      "id": 21,
+      "name": "Pó de Diamante",
+      "unit": "2.6",
+      "pack": "166.4"
+    },
+    {
+      "id": 22,
+      "name": "Pó de Ferro",
+      "unit": "4.5",
+      "pack": "288"
+    },
+    {
+      "id": 23,
+      "name": "Pó de Iridium",
+      "unit": "3.3",
+      "pack": "211.2"
+    },
+    {
+      "id": 24,
+      "name": "Pó de Ouro",
+      "unit": "5.3",
+      "pack": "339.2"
+    },
+    {
+      "id": 25,
+      "name": "Pó de Prata",
+      "unit": "0.8",
+      "pack": "51.2"
+    },
+    {
+      "id": 26,
+      "name": "Pó de Forja",
+      "unit": "0.5",
+      "pack": "32"
+    },
+    {
+      "id": 27,
+      "name": "Prata",
+      "unit": "2",
+      "pack": "128"
+    },
+    {
+      "id": 28,
+      "name": "Sal Grosso",
+      "unit": "0.6",
+      "pack": "38.4"
+    }
+  ],
+  "mobDrop": [
+    {
+      "id": 1,
+      "name": "Agata Cinza Sombria",
+      "unit": "3",
+      "pack": "5"
+    },
+    {
+      "id": 2,
+      "name": "Amazonita Tranquilidade",
+      "unit": "10",
+      "pack": "25"
+    },
+    {
+      "id": 3,
+      "name": "Asa de Morcego de Fogo",
+      "unit": "0.25",
+      "pack": "1.5"
+    },
+    {
+      "id": 4,
+      "name": "Asa de Morcego de Sapo",
+      "unit": "0.25",
+      "pack": "1.5"
+    },
+    {
+      "id": 5,
+      "name": "Barriga de Sapo",
+      "unit": "1",
+      "pack": "4"
+    },
+    {
+      "id": 6,
+      "name": "Cabeça de Besouro Rinoceronte",
+      "unit": "1",
+      "pack": "3"
+    },
+    {
+      "id": 7,
+      "name": "Cabeça de Cogumelo",
+      "unit": "0.5",
+      "pack": "2.5"
+    },
+    {
+      "id": 8,
+      "name": "Cabeça de Goblin",
+      "unit": "0.25",
+      "pack": "2"
+    },
+    {
+      "id": 9,
+      "name": "Carne de Capivara",
+      "unit": "0.5",
+      "pack": "3"
+    },
+    {
+      "id": 10,
+      "name": "Carne de Sapo",
+      "unit": "0.5",
+      "pack": "3"
+    },
+    {
+      "id": 11,
+      "name": "Coluna de Esqueleto",
+      "unit": "1.5",
+      "pack": "4"
+    },
+    {
+      "id": 12,
+      "name": "Cogumelo Vermelho Venenoso",
+      "unit": "3",
+      "pack": "8"
+    },
+    {
+      "id": 13,
+      "name": "Corpo de Besouro Marrom",
+      "unit": "0.5",
+      "pack": "2"
+    },
+    {
+      "id": 14,
+      "name": "Couro de Capivara",
+      "unit": "0.5",
+      "pack": "4"
+    },
+    {
+      "id": 15,
+      "name": "Couro de Javali",
+      "unit": "2",
+      "pack": "5"
+    },
+    {
+      "id": 16,
+      "name": "Cranio de Guardião Esqueleto",
+      "unit": "2",
+      "pack": "4"
+    },
+    {
+      "id": 17,
+      "name": "Dente de Morcego",
+      "unit": "2",
+      "pack": "5"
+    },
+    {
+      "id": 18,
+      "name": "Esmeralda Seneridade",
+      "unit": "75",
+      "pack": "100"
+    },
+    {
+      "id": 19,
+      "name": "Fragmento de Dano Solitário",
+      "unit": "4",
+      "pack": "8"
+    },
+    {
+      "id": 20,
+      "name": "Fragmento de Mana Solitário",
+      "unit": "1",
+      "pack": "3"
+    },
+    {
+      "id": 21,
+      "name": "Fragmento de Mágico Solitário",
+      "unit": "1",
+      "pack": "3"
+    },
+    {
+      "id": 22,
+      "name": "Fragmento de Mágico Solitário",
+      "unit": "1",
+      "pack": "3"
+    },
+    {
+      "id": 23,
+      "name": "Fragmento de Resistencia Solitária",
+      "unit": "4",
+      "pack": "8"
+    },
+    {
+      "id": 24,
+      "name": "Fragmento de Vida Solitário",
+      "unit": "1",
+      "pack": "3"
+    },
+    {
+      "id": 25,
+      "name": "Fragmento de Velocidade Soltária",
+      "unit": "4",
+      "pack": "8"
+    },
+    {
+      "id": 26,
+      "name": "Granito Cinza Relisente",
+      "unit": "1",
+      "pack": "3"
+    },
+    {
+      "id": 27,
+      "name": "Malaquita Vitalis",
+      "unit": "5",
+      "pack": "8"
+    },
+    {
+      "id": 28,
+      "name": "Obsidiana Cinza Profundo",
+      "unit": "2",
+      "pack": "5"
+    },
+    {
+      "id": 29,
+      "name": "Ossos de Esqueleto Lacaio",
+      "unit": "0.5",
+      "pack": "2"
+    },
+    {
+      "id": 30,
+      "name": "Partes de Corpo de Goblin",
+      "unit": "1.5",
+      "pack": "3"
+    },
+    {
+      "id": 31,
+      "name": "Peridoto Luminar",
+      "unit": "10",
+      "pack": "25"
+    },
+    {
+      "id": 32,
+      "name": "Torax de Guardiao Esqueleto",
+      "unit": "2",
+      "pack": "4"
+    },
+    {
+      "id": 33,
+      "name": "Tourmalina Rosa Vivacidade",
+      "unit": "5",
+      "pack": "10"
+    },
+    {
+      "id": 34,
+      "name": "Tronco de Capivara",
+      "unit": "1.5",
+      "pack": "5"
+    },
+    {
+      "id": 35,
+      "name": "Tronco de Cogumelo",
+      "unit": "0.5",
+      "pack": "3"
+    }
+  ],
+  "ingredients": [
+    {
+      "id": 1,
+      "name": "Alface",
+      "unit": "0.5",
+      "pack": "32"
+    },
+    {
+      "id": 2,
+      "name": "Alho",
+      "unit": "0.5",
+      "pack": "32"
+    },
+    {
+      "id": 3,
+      "name": "Banana",
+      "unit": "1",
+      "pack": "64"
+    },
+    {
+      "id": 4,
+      "name": "Braquiária",
+      "unit": "0.5",
+      "pack": "32"
+    },
+    {
+      "id": 5,
+      "name": "Cana-de-açúcar",
+      "unit": "1",
+      "pack": "64"
+    },
+    {
+      "id": 6,
+      "name": "Centaurea",
+      "unit": "0.75",
+      "pack": "48"
+    },
+    {
+      "id": 7,
+      "name": "Cogumelo marrom",
+      "unit": "0.5",
+      "pack": "32"
+    },
+    {
+      "id": 8,
+      "name": "Cogumelo vermelho",
+      "unit": "0.5",
+      "pack": "32"
+    },
+    {
+      "id": 9,
+      "name": "Dendelucia",
+      "unit": "1.5",
+      "pack": "96"
+    },
+    {
+      "id": 10,
+      "name": "Dente de leão",
+      "unit": "0.5",
+      "pack": "32"
+    },
+    {
+      "id": 11,
+      "name": "Estrelilás",
+      "unit": "2",
+      "pack": "128"
+    },
+    {
+      "id": 12,
+      "name": "Folha de açafrão escarlate",
+      "unit": "0.75",
+      "pack": "48"
+    },
+    {
+      "id": 13,
+      "name": "Folha de artemisia lunar",
+      "unit": "0.75",
+      "pack": "48"
+    },
+    {
+      "id": 14,
+      "name": "Folha de genciana purificada",
+      "unit": "0.75",
+      "pack": "48"
+    },
+    {
+      "id": 15,
+      "name": "Folha de hibrisco rubro",
+      "unit": "0.75",
+      "pack": "48"
+    },
+    {
+      "id": 16,
+      "name": "Folha de losna vital",
+      "unit": "0.75",
+      "pack": "48"
+    },
+    {
+      "id": 17,
+      "name": "Folha de madressilva perfumada",
+      "unit": "0.75",
+      "pack": "48"
+    },
+    {
+      "id": 18,
+      "name": "Folha de malva hera",
+      "unit": "0.75",
+      "pack": "48"
+    },
+    {
+      "id": 19,
+      "name": "Folha de Salgueiro vermelha",
+      "unit": "0.75",
+      "pack": "48"
+    },
+    {
+      "id": 20,
+      "name": "Galho de roseira",
+      "unit": "2",
+      "pack": "128"
+    },
+    {
+      "id": 21,
+      "name": "Galho seco de mangue",
+      "unit": "0.5",
+      "pack": "32"
+    },
+    {
+      "id": 22,
+      "name": "Galho seco de selva",
+      "unit": "0.75",
+      "pack": "48"
+    },
+    {
+      "id": 23,
+      "name": "Galio de azaleia",
+      "unit": "3",
+      "pack": "192"
+    },
+    {
+      "id": 24,
+      "name": "Girassol",
+      "unit": "0.75",
+      "pack": "48"
+    },
+    {
+      "id": 25,
+      "name": "Grão de soja",
+      "unit": "0.5",
+      "pack": "32"
+    },
+    {
+      "id": 26,
+      "name": "Grão de Trigo",
+      "unit": "0.2",
+      "pack": "12,8"
+    },
+    {
+      "id": 27,
+      "name": "Laranja",
+      "unit": "1",
+      "pack": "64"
+    },
+    {
+      "id": 28,
+      "name": "Limão",
+      "unit": "1",
+      "pack": "64"
+    },
+    {
+      "id": 29,
+      "name": "Maça",
+      "unit": "1",
+      "pack": "64"
+    },
+    {
+      "id": 30,
+      "name": "Maracujá",
+      "unit": "1",
+      "pack": "64"
+    },
+    {
+      "id": 31,
+      "name": "Milho",
+      "unit": "0.5",
+      "pack": "32"
+    },
+    {
+      "id": 32,
+      "name": "Orquidea azul",
+      "unit": "3",
+      "pack": "192"
+    },
+    {
+      "id": 33,
+      "name": "Papoula",
+      "unit": "0.5",
+      "pack": "32"
+    },
+    {
+      "id": 34,
+      "name": "Peônia aromatizada",
+      "unit": "2",
+      "pack": "128"
+    },
+    {
+      "id": 35,
+      "name": "Peónia",
+      "unit": "1",
+      "pack": "64"
+    },
+    {
+      "id": 36,
+      "name": "Pera",
+      "unit": "1",
+      "pack": "64"
+    },
+    {
+      "id": 37,
+      "name": "Salvia celestial",
+      "unit": "3",
+      "pack": "192"
+    },
+    {
+      "id": 38,
+      "name": "Silvalho",
+      "unit": "1.5",
+      "pack": "96"
+    },
+    {
+      "id": 39,
+      "name": "Tomate",
+      "unit": "1",
+      "pack": "64"
+    },
+    {
+      "id": 40,
+      "name": "Trepadeira",
+      "unit": "1",
+      "pack": "64"
+    },
+    {
+      "id": 41,
+      "name": "Trigo",
+      "unit": "0.5",
+      "pack": "32"
+    },
+    {
+      "id": 42,
+      "name": "Tulipa",
+      "unit": "3",
+      "pack": "192"
+    }
+  ]
+}

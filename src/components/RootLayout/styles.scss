@@ -1,28 +1,14 @@
 @import "../../sass/index.scss";
 
-.nav-item {
-  padding: 1rem;
-  
-  div {
-    display: flex;
-    gap: 2rem;
-    padding: 1rem;
-    
-    a {
-      font-size: 1.1rem;
-      font-weight: 500;
-      text-decoration: none;
-      color: $primary-color;
-      transition: all .3s;
-      
-      &:hover {
-        color: $tertiary-color;
-      }
-    }
-  }
-}
-.main {
+.root-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 2rem;
+  min-height: 100vh;
+}
+.content {
+  padding: 1rem;
 }
 @media (max-width: 375px) {
   .nav-item {

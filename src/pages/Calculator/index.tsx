@@ -56,7 +56,7 @@ export default function Calculator () {
         setKit("");
         setQuantity(1);
       } else {
-        alert("Ops.. parece que você está tentando adicionar o mesmo conjunto de item.");
+        alert("Ops.. parece que você está tentando adicionar o mesmo conjunto de recurso.");
       }
     }
   };

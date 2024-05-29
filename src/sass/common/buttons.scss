@@ -3,16 +3,17 @@
 button {
   width: 5rem;
   border-radius: .3rem;
-  border: 1.5px solid transparent;
-  padding: .5rem;
-  color: $senary-color;
+  border: 1px solid transparent;
+  padding: .3rem;
+  color: $primary-color;
   font-weight: 500;
   font-family: inherit;
   cursor: pointer;
   transition: border-color 0.25s;
 
   &:hover {
-    border-color: $quinary-color;
+    border-color: $senary-color;
+    cursor: pointer;
   }
   &:focus,
   &:focus-visible {
@@ -21,7 +22,9 @@ button {
 }
 .addBtn {
   background-color: $tertiary-color;
+  box-shadow: 0 0 .5rem $tertiary-color;
 }
 .deleteBtn {
-  background-color: $quinary-color;
+  background-color: $senary-color;
+  box-shadow: 0 0 .5rem $senary-color;
 }

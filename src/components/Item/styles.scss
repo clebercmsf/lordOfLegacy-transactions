@@ -1,1 +1,11 @@
 @import "../../sass/index.scss";
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem 0;
+  border-bottom: 3px dashed $senary-color;
+  text-transform: uppercase;
+  font-weight: 500;
+}

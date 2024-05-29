@@ -9,6 +9,9 @@ type ItemProps = {
 
 export default function Item ({ name, kit, quantity, removeItem }: ItemProps) {
   return (
-    <span>{quantity} {kit} de {name} <button className="deleteBtn" onClick={removeItem}>Remover</button></span>
+    <div className="item">
+      <span>{quantity} {kit} de {name}</span>
+      <button className="deleteBtn" onClick={removeItem}>Remover</button>
+    </div>
   );
 }

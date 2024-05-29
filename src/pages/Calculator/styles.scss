@@ -5,7 +5,6 @@
   gap: 1rem;
   align-items: center;
 }
-
 .resources {
   display: flex;
   gap: 1rem;
@@ -29,36 +28,59 @@
   background-color: $secondary-color;
   box-shadow: 0 0 .5rem $secondary-color;
   border-radius: .5rem;
+}
+.items-list {
+  display: flex;
+  gap: .3rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.items-total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
 
   div {
     display: flex;
-    gap: .3rem;
-    flex-direction: column;
-    
-    span {
-      padding: .5rem 0;
-      border-bottom: 1px solid $tertiary-color;
-    }
+    gap: .5rem;
+    align-items: center;
+    text-align: center;
   }
 }
-.items-total {
-  padding: .3rem;
+.totalFee {
+  text-align: center;
+  padding: 1rem 0 0;
   font-weight: 600;
+  border-top: 3px dashed $senary-color;
+}
+.total-price {
+  color: $senary-color;
+  // text-shadow: 0 0 .5rem $senary-color;
+  font-weight: 700;
 }
 label {
-  margin-bottom: .5rem;
   font-weight: 500;
 }
 input, select {
   padding: .5rem;
   border: 2px solid transparent;
   border-radius: .3rem;
+  color: $primary-color;
   background-color: $secondary-color;
   box-shadow: 0 0 .5rem $secondary-color;
-  
+
+  &:hover {
+    cursor: pointer;
+  }
   &:focus,
   &:focus-visible {
     border: 2px solid $quaternary-color;
     outline: none;
+  }
+  
+}
+input[type="checkbox"] {
+  &:checked {
+    background-color: $senary-color;
   }
 }

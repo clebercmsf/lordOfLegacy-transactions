@@ -18,6 +18,7 @@ export default function Calculator () {
   const [quantity, setQuantity] = useState(1);
   const [itemList, setItemList] = useState<ItemType[]>([]);
   const [totalPrice, setTotalPrice] = useState(0);
+  const [fee, setFee] = useState(false);
 
   const addItem = ({ id, name, kit, quantity }: ItemType) => {
     const item: ItemType = { id, name, kit, quantity };
@@ -125,14 +126,29 @@ export default function Calculator () {
         </div>
         {renderContent()}
         <section className={totalPrice > 0 ? "items" : ""}>
-          <div>
+          <div className="items-list">
             {itemList.length > 0
             ? itemList.map(item => (
                 <Item key={item.id} name={item.name} kit={item.kit} quantity={item.quantity} removeItem={() => removeItem(item)}/>
             )): null
             }
           </div>
-          {totalPrice > 0 ? <span className="items-total">Total: R$ {totalPrice}</span> : null}
+          {totalPrice > 0
+          ? <>
+              <div className="items-total">
+              <span>Total: <span className="total-price">R$ {totalPrice}</span></span>
+              <div>
+                <label htmlFor="fee">Adicionar taxa de serviço:</label>
+                <input type="checkbox" name="fee" checked={fee} onChange={() => fee === true ? setFee(false) : setFee(true)} />
+              </div>
+              </div>
+              {fee
+              ? <div className="totalFee">
+                  <span>Total com taxa de serviço: <span className="total-price">R$ {totalPrice + (totalPrice / 10)}</span></span>
+                </div>
+              : null}
+            </>
+          : null}
         </section>
       </section>
     </main>

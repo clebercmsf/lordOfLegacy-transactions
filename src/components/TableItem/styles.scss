@@ -1,0 +1,15 @@
+@import "../../sass/index.scss";
+
+.table-item {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  border-bottom: 3px dashed $senary-color;
+
+  label {
+    font-weight: 400;
+  }
+  span {
+    font-weight: 600;
+    color: $senary-color;
+  }
+}

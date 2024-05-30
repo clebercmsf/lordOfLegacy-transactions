@@ -1,22 +1,34 @@
 import "./styles.scss";
 import database from "../../databases/prices.json";
+import TableItem from "../../components/TableItem";
+import TableHeader from "../../components/TableHeader";
 
-export default function Tables () {
+export default function Tables() {
   return (
-    <section className="tables">
-      <div className="tables-header">
-        <h4>Nome</h4>
-        <h4>Valor Unidade</h4>
-        <h4>Valor Pack</h4>
+    <section className="section__tables">
+      <div className="tables">
+        <TableHeader value1="Unidade" value2="Pack" />
+        <div className="tables-content">
+          {database.ores.map(item => (
+            <TableItem key={item.id} name={item.name} unit={item.unit} pack={item.pack} />
+          ))}
+        </div>
       </div>
-      <div className="tables-content">
-        {database.ores.map(item => (
-          <div key={item.id}>
-            <span>{item.name}</span>
-            <span>{item.unit}</span>
-            <span>{item.pack}</span>
-          </div>
-        ))}
+      <div className="tables">
+        <TableHeader value1="Unidade" value2="Pack" />
+        <div className="tables-content">
+          {database.ingredients.map(item => (
+            <TableItem key={item.id} name={item.name} unit={item.unit} pack={item.pack} />
+          ))}
+        </div>
+      </div>
+      <div className="tables">
+        <TableHeader value1="Valor Min" value2="Valor Max" />
+        <div className="tables-content">
+          {database.mobDrop.map(item => (
+            <TableItem key={item.id} name={item.name} unit={item.unit} pack={item.pack} />
+          ))}
+        </div>
       </div>
     </section>
   );

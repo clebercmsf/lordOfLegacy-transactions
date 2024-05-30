@@ -99,7 +99,7 @@ export default function useCalculator () {
               ))}
             </select>
           </div>
-          <ResourceProperty kit={kit} setKit={setKit} quantity={quantity} setQuantity={setQuantity} handleClick={handleClick} />
+          <ResourceProperty kit={kit} setKit={setKit} quantity={quantity} setQuantity={setQuantity} handleClick={handleClick} mobDrop={false} />
         </div>
       );
     } if (resourceType === "mob-drop") {
@@ -114,7 +114,7 @@ export default function useCalculator () {
                 ))}
               </select>
             </div>
-            <ResourceProperty kit={kit} setKit={setKit} quantity={quantity} setQuantity={setQuantity} handleClick={handleClick} />
+            <ResourceProperty kit={kit} setKit={setKit} quantity={quantity} setQuantity={setQuantity} handleClick={handleClick} mobDrop={true} />
           </div>
         );
     } if (resourceType === "ingredients") {
@@ -129,7 +129,7 @@ export default function useCalculator () {
               ))}
             </select>
           </div>
-          <ResourceProperty kit={kit} setKit={setKit} quantity={quantity} setQuantity={setQuantity} handleClick={handleClick} />
+          <ResourceProperty kit={kit} setKit={setKit} quantity={quantity} setQuantity={setQuantity} handleClick={handleClick} mobDrop={false} />
         </div>
       );
   } else {

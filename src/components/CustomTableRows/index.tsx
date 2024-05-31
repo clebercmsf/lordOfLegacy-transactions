@@ -1,9 +1,9 @@
 import React, { FC } from "react"
-import "./index.sass"
 
 
 const CustomRowsTable: FC<CustomRowsTable> = ({name,unit,amount}) => {
     return (
+        <>
         <tr className="tr_custom_table">
             <td>
                 {name}
@@ -15,14 +15,13 @@ const CustomRowsTable: FC<CustomRowsTable> = ({name,unit,amount}) => {
                 {amount}
             </td>
         </tr>
+        </>
     )
-}
-
-export default CustomRowsTable;
-
+};
 
 interface CustomRowsTable {
-    name: string[];
-    unit: number[];
+    name: string;
+    unit: number;
     amount: number[];
 }
+export default CustomRowsTable;

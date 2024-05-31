@@ -9,8 +9,10 @@ import { useState } from "react";
 export default function Tables() {
   const [calcInAmount, setcalcInAmount] = useState(64);
 
-  function handleSetAmount(amount:number) {
-    setcalcInAmount(amount.target.value)
+  function handleSetAmount(amount:string) {
+    
+    
+    setcalcInAmount(+amount)
   }
 
 
@@ -18,7 +20,7 @@ export default function Tables() {
   return (
     <section className="section__tables">
         <table className="table_ore_table">
-        <CustomHeaderTable headers={[<th>Nome</th>, <th>Unidade</th>, <th>Pack <input placeholder="amount" onBlur={(e)=>handleSetAmount(e)}></input></th>]}/>
+        <CustomHeaderTable headers={[<th>Nome</th>, <th>Unidade</th>, <th>Pack <input placeholder="amount" onBlur={(e)=>handleSetAmount(e.target.value)}></input></th>]}/>
         { database.ores.map((item) => (
           <CustomRowsTable key={item.id} name={item.name} unit={item.unit} amount={calcInAmount * item.unit}/>
         ))

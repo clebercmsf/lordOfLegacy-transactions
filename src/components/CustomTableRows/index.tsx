@@ -1,6 +1,6 @@
+import React, { FC } from "react"
 import "./index.sass"
 
-import React, { FC } from "react"
 
 const CustomRowsTable: FC<CustomRowsTable> = ({name,unit,amount}) => {
     return (

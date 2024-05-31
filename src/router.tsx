@@ -13,7 +13,7 @@ const router = createBrowserRouter([
         element: <Calculator />
       },
       {
-        path: "tabelas",
+        path: "table",
         element: <Tables />
       }
     ]

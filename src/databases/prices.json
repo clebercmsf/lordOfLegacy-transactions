@@ -3,169 +3,169 @@
     {
       "id": 1,
       "name": "Argila",
-      "unit": "0.6",
+      "unit": 0.6,
       "pack": "38.4"
     },
     {
       "id": 2,
       "name": "Amethysta",
-      "unit": "1",
+      "unit": 1,
       "pack": "64"
     },
     {
       "id": 3,
       "name": "Barra de Amethysta",
-      "unit": "3.5",
+      "unit": 3.5,
       "pack": "224"
     },
     {
       "id": 4,
       "name": "Barra de Diamante",
-      "unit": "21",
+      "unit": 21,
       "pack": "1344"
     },
     {
       "id": 5,
       "name": "Barra de Ferro",
-      "unit": "20",
+      "unit": 20,
       "pack": "1280"
     },
     {
       "id": 6,
       "name": "Barra de Iridium",
-      "unit": "20",
+      "unit": 20,
       "pack": "1280"
     },
     {
       "id": 7,
       "name": "Barra de Ouro",
-      "unit": "21.5",
+      "unit": 21.5,
       "pack": "1376"
     },
     {
       "id": 8,
       "name": "Barra de Prata",
-      "unit": "8",
+      "unit": 8,
       "pack": "512"
     },
     {
       "id": 9,
       "name": "Carvao",
-      "unit": "0.25",
+      "unit": 0.25,
       "pack": "32"
     },
     {
       "id": 10,
       "name": "Diamante",
-      "unit": "5",
+      "unit": 5,
       "pack": "320"
     },
     {
       "id": 11,
       "name": "Ferro",
-      "unit": "2",
+      "unit": 2,
       "pack": "128"
     },
     {
       "id": 12,
       "name": "Fragmento de Amethysta",
-      "unit": "0.3",
+      "unit": 0.3,
       "pack": "19.2"
     },
     {
       "id": 13,
       "name": "Fragmento de Diamante",
-      "unit": "2.6",
+      "unit": 2.6,
       "pack": "166.4"
     },
     {
       "id": 14,
       "name": "Fragmento de Ferro",
-      "unit": "4.5",
+      "unit": 4.5,
       "pack": "288"
     },
     {
       "id": 15,
       "name": "Fragmento de Iridium",
-      "unit": "3.3",
+      "unit": 3.3,
       "pack": "211.2"
     },
     {
       "id": 16,
       "name": "Fragmento de Ouro",
-      "unit": "5.3",
+      "unit": 5.3,
       "pack": "339.2"
     },
     {
       "id": 17,
       "name": "Fragmento de Prata",
-      "unit": "0.8",
-      "pack": "51.2"
+      "unit": 0.8,
+      "pack": 51.2
     },
     {
       "id": 18,
       "name": "Iridium",
-      "unit": "3",
+      "unit": 3,
       "pack": "192"
     },
     {
       "id": 19,
       "name": "Ouro",
-      "unit": "2.5",
+      "unit": 2.5,
       "pack": "160"
     },
     {
       "id": 20,
       "name": "Pó de Amethysta",
-      "unit": "0.3",
+      "unit": 0.3,
       "pack": "19.2"
     },
     {
       "id": 21,
       "name": "Pó de Diamante",
-      "unit": "2.6",
+      "unit": 2.6,
       "pack": "166.4"
     },
     {
       "id": 22,
       "name": "Pó de Ferro",
-      "unit": "4.5",
+      "unit": 4.5,
       "pack": "288"
     },
     {
       "id": 23,
       "name": "Pó de Iridium",
-      "unit": "3.3",
+      "unit": 3.3,
       "pack": "211.2"
     },
     {
       "id": 24,
       "name": "Pó de Ouro",
-      "unit": "5.3",
+      "unit": 5.3,
       "pack": "339.2"
     },
     {
       "id": 25,
       "name": "Pó de Prata",
-      "unit": "0.8",
+      "unit": 0.8,
       "pack": "51.2"
     },
     {
       "id": 26,
       "name": "Pó de Forja",
-      "unit": "0.5",
+      "unit": 0.5,
       "pack": "32"
     },
     {
       "id": 27,
       "name": "Prata",
-      "unit": "2",
+      "unit": 2,
       "pack": "128"
     },
     {
       "id": 28,
       "name": "Sal Grosso",
-      "unit": "0.6",
+      "unit": 0.6,
       "pack": "38.4"
     }
   ],
